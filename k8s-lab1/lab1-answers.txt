@@ -1,0 +1,31 @@
+pods -
+1. running - (my answer - ready - x)
+2. deployment -(my answer - kind -x)
+3. pod - v
+4. kubectl get pods - v
+5. kubectl delete pod - v
+
+deployment -
+1. deploy an app +enabling updates if needed - manage replicas
+2. x - What command scales a deployment? - kublet scale
+3. deployment - v
+4. spec - (my answer - template - x)
+5. x - What command updates a deployment? - kubectl apply
+6. pods - v
+7. 1 - v
+
+replicaset -
+1. replicasets - v
+2. defines how many replicas there is in any time - v
+3. kubectl get replicasets - v
+4. replicaset - v
+5. replicaset - v
+6. the replicaset will create another new pod - v
+
+service type-
+1. clusterip - v
+2. nodeport - x, right answer - loadbalancer
+3. multi-port - x, right answer nodeport
+4. clusterip - x, right answer nodeport
+5. What command exposes a pod via a service? - kubelet expose
+6. clusterip - v
